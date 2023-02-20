@@ -1,0 +1,72 @@
+body{
+    background: url(https://i.pinimg.com/originals/ce/72/67/ce72679dabb2f8eda3b70693af3288a3.jpg);
+    background-size: cover;
+    
+}
+
+#p1{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif
+}
+
+#p2{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+pres{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  min-height: 60vh;
+  padding: 70px;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    padding: 10%
+}
+
+.card-container{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.card{
+    background-color: #0c1008;
+    border-radius: 32px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 50px 10px rgba(255,0,0,0.2); 
+    box-shadow: 0px 0px 50px 10px rgba(255,0,0,0.2);
+    transition: all 0.2s;
+    width: 256px;
+}
+.card:hover{
+    -webkit-box-shadow: 0px 0px 50px 20px rgba(255,0,0,0.3); 
+    box-shadow: 0px 0px 50px 20px rgba(250,0,0,0.3);
+}
+
+.card .card-img{
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+}
+
+.card p{
+    padding:  10%;
+    color: #fff;
+}
